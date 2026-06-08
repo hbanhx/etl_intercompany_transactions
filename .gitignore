@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# Data files (raw data should not be in Git)
+data/
+*.csv
+*.xlsx
+!sample_data.xlsx
+
+# logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Development files
+notes/
+
+# Ignore config file with sensitive info
+config.yaml
+
+# output files
+output/
+!output_masked/
+
+!import_orders_masked.xlsx
+!master_masked.xlsx
+!vat_reconciliation_masked.xlsx
